@@ -1,0 +1,100 @@
+.hamburger {
+    position: absolute;
+    z-index: 169;
+    top: 12px;
+    left: 1.58em;
+    display: none;
+}
+.addBtn{
+    width: 40px!important;
+    height: 35px!important;
+    padding: 5px!important;
+    font-size: 0.6em!important;
+    border-radius: 10px;
+    margin: 2px;
+}
+.addBtn:hover{
+    background-color: #201e1e;
+}
+
+
+@media screen and (max-width:762px) {
+    .leftbar {
+        display: none;
+
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .navbarmenu {
+        margin-left: 34px;
+    }
+
+    .roomdetails {
+        padding-left: 42px;
+    }
+
+    .chat__footer {
+        width: 91vw;
+    }
+
+    .messageboxcont {
+        margin-left: 9px;
+    }
+
+    .imgboximg {
+        width: 51px;
+        height: 51px;
+        border-radius: 40%
+    }
+}
+
+@media screen and (max-width:762px) {
+    .fontemmm {
+        font-size: 0.85em;
+        min-width: fit-content;
+    }
+
+    .tieemmm {
+        font-size: 12px;
+        width: 150px;
+    }
+    
+    .splitBtn {
+        width: 70px!important;
+        height: 35px!important;
+        padding: 5px!important;
+        font-size: 0.8em!important;
+        margin-right: 0px;
+
+    }
+    .expenseSpan{
+        display: none !important;
+    }
+    .addBtn{
+        width: 40px!important;
+        height: 35px!important;
+        padding: 5px!important;
+        font-size: 0.8em!important;
+        margin-right: 50vw!important;
+    }
+    .addBtn:hover{
+        background-color: #201e1e;
+    }
+    .chatbox{
+        height: 95%;
+        min-width: 500px;
+
+    }
+}
+
+.navbarmenu {
+    height: 52px;
+    border-bottom: 2px solid #201e1e;
+    display: flex;
+    align-items: center;
+    padding-left: 35px;
+    width: 100%;
+}

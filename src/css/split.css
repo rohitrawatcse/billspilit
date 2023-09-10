@@ -1,0 +1,165 @@
+.splitBox{
+    min-width: 160px;
+    min-height: 190px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    background-color: #292929;
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    overflow: auto;
+    
+
+}
+.splitTitle{
+    flex: 1;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 300;
+    border-radius: 15px 15px 0 0;
+}
+.splitDescription{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 0 0 15px 15px;
+}
+/* .splitBox:hover{
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #fff;
+    transition: 0.5s;
+} */
+
+.splitAmount{
+    flex: 1.1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 0 0 15px 15px;
+    
+}
+.splitPay{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 50px;
+    background-color: #025d95;
+    color: #c3edff;
+    border: none;
+    cursor: pointer;
+}
+.splitPayDisabled{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 50px;
+    background-color: #002a45;
+    color: #234e68;
+    border: none;
+    cursor: not-allowed;
+}
+
+.splitAvatarDiv{
+    width: 100%;
+    padding-left: 10px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+
+.splitAvatar{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #c3edff;
+    color: #004a77;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: -10px;
+
+}
+
+
+
+.progressBarDiv{
+    flex: 0.5;
+    gap: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+.progressBar{
+    flex: 1.8;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.countNum{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    /* justify-content: flex-end; */
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    
+}
+
+.splitPayDiv{
+    flex: 3;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    
+}
+
+.splitPay:disabled{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 50px;
+    background-color: #002a45;
+    color: #4f565b;
+    border: none;
+    cursor: not-allowed;
+}

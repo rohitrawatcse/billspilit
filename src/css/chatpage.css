@@ -1,0 +1,243 @@
+.chatbox {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    position: relative;
+    background-color: rgb(18,15,19);
+    /* z-index: 0; */
+    
+}
+
+.avatar__chat__header img {
+    width: 40px;
+    border-radius: 100%;
+    margin-left: 9px;
+    margin-right: 20px;
+    margin-top: 6px;
+}
+
+.chat_header_ico {
+    width: 22px;
+    margin: 0 9px;
+    cursor: pointer;
+}
+
+.chat_header_ico1 {
+    width: 25px;
+    margin: 0 9px;
+    cursor: pointer;
+}
+
+.chat__header__logosec {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+.chat__header__name {
+    display: flex;
+    flex-direction: column;
+    width: 299px;
+    margin-left: -5px;
+}
+
+.chat__header__name p {
+    font-size: 11px;
+    margin-top: 5px;
+    color: #888888;
+}
+
+.chat__footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 58px;
+    padding: 0 9px;
+    position: absolute;
+    bottom: 3.8px;
+    width: 97.4%;
+}
+
+.chat__footer input {
+    width: 96%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    height: inherit;
+    padding-left: 5px;
+    color: white;
+
+}
+
+.forbginput {
+    /* width:inherit; */
+    height: 90%;
+    background-color: rgb(60, 57, 63);
+    border-radius: 10px;
+
+}
+
+
+
+@media screen and (max-width:420px) {
+    .chat__footer input {
+        width: 80%;
+    }
+}
+
+.imgbox {
+    width: 59px;
+    height: 59px;
+    margin-top: 3px;
+    margin-right: 3px;
+    margin-left: 0.95vw;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.imgboximg {
+    width: 49px;
+    height: 49px;
+    border-radius: 11px;
+}
+
+.memheader {
+    color: white;
+    font: Poppins;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: -0.035em;
+    margin: 5px;
+    margin-top: 15px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+
+@media screen and (max-width:565px) {
+    .imgboximg {
+        width: 45px;
+        height: 45px;
+        margin-right: -4px;
+    }
+
+    .imgbox {
+        margin-left: 1.45vw;
+        margin-bottom: -5px;
+    }
+
+    .memheader {
+        margin-top: 12px;
+    }
+}
+
+.messagebox {
+    width: fit-content;
+    max-width: 85%;
+    padding: 3px 15px;
+    border-radius: 14px;
+    position: relative;
+    padding-bottom: 7px;
+    margin-left: 1px;
+}
+
+.timestamp {
+    font-size: 9.5px;
+    left: 9px;
+    user-select: none;
+}
+
+.chat__body__message {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.5px;
+    line-height: 25px;
+    letter-spacing: -0.035em;
+    color: #E0E0E0;
+    word-wrap: break-word;
+    padding-top: 2px;
+    background-color: transparent;
+}
+
+.messageboxcont {
+    margin-top: 19px;
+    margin-bottom: 0px;
+    display: flex;
+    margin-left: 28.75px;
+    padding-top: 6px;
+}
+
+.chat__body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 84.55%;
+    padding-bottom: 9px;
+}
+
+.chat__body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px #252329;
+    border-radius: 10px;
+    scroll-behavior: smooth;
+}
+
+.chat__body::-webkit-scrollbar {
+    height: 9px;
+    width: 6px;
+    background-color: #252329;
+}
+
+.chat__body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(189, 189, 189, 0.3);
+    background-color: rgb(177, 177, 177);
+}
+
+*::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgb(18, 15, 19);
+    border-radius: 10px;
+    scroll-behavior: smooth;
+}
+
+*::-webkit-scrollbar {
+    height: 9px;
+    width: 3.75px;
+    background-color: rgb(18, 15, 19);
+}
+
+*::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(189, 189, 189, 0.3);
+    background-color: rgb(177, 177, 177);
+}
+
+.file::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgb(37, 35, 41);
+    z-index: -5;
+    border-radius: 10px;
+    scroll-behavior: smooth;
+}
+
+.file::-webkit-scrollbar {
+    height: 3px;
+    width: 3px;
+    background-color: transparent;
+}
+
+.file::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(189, 189, 189, 0.3);
+    background-color: rgb(187, 187, 187);
+}
+
+.fontemmm {
+    font-size: 15px;
+    font-family: Poppins;
+    min-width: fit-content;
+}
+
